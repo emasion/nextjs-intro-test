@@ -1,6 +1,9 @@
-const Index = () => {
-    <div>
-        <p>ZICZA test page</p>
-    </div>
+import styles from '../styles.module.css'
+
+export default function Home() {
+    return (
+        <div className={styles.hello}>
+            <p>Hello World</p>
+        </div>
+    )
 }
-export default Index
